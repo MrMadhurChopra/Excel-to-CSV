@@ -1,10 +1,9 @@
 # Excel-to-CSV
-Read an excel file and split it into multiple csv files, one for each sheet in the workbook
+Requirements:
+  * Read an excel file and split it into multiple csv files, one for each sheet in the workbook.
+  * Add a timestamp to the csv file name
+  * The excel file to be read is in the Azure Blob Storage
+  * The csv file to be created will be in the same Azure storage but in individual folders named after the tabs in the excel workbook
+  * Archive the excel file after processing into an archive folder in Azure
 
 
-Where is the excel file?
-  The excel file is in a Azure Blob Storage 
-  
-Where are the csv files?
-  The csv files created by this utility will be in the same Azure storage but in individual folders named after the tabs in the excel workbook
-  
