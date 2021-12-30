@@ -7,3 +7,6 @@ Requirements:
   * Archive the excel file after processing into an archive folder in Azure
 
 
+Authentication:
+ * BlobServiceClient used to connect to the Azure Storage is Authenticated using the Connection String
+ *  
